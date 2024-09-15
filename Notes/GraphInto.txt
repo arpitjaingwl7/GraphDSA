@@ -1,0 +1,23 @@
+
+Graph- Graph is Combination of edges and nodes
+
+1)Nodes
+2)edges
+    Directed
+    unDirected
+    weighted
+    non-weighted
+3)Degree of nodes
+    In Degree
+    out Degree
+
+4)Path- Sequence of node
+
+Typec of Graph
+    Cyclic 
+    Acyclic
+    DAG- Directed Acyclic Graph
+    Directed weighted Cyclic Graph
+
+    
+

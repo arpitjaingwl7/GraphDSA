@@ -1,0 +1,6 @@
+1)Adjancy matrix
+2)Adjancy List
+    List<Integer,<List<Integer>>
+    map<Integer,<List<Integer>>
+    
+    
