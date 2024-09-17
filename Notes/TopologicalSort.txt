@@ -1,0 +1,11 @@
+DAG-
+Directed Acyclic Graph
+
+Topo sort only possible in DAG
+
+->Linear ordering of vertices such that for every edge u ->v, u always occurs before v,
+
+=>> Use DFS Traversal and a Stack
+put element x in the stack after  completing all the dfs traversal from point x
+
+and now the stack will give our topological sort order.
