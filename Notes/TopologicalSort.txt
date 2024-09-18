@@ -9,3 +9,14 @@ Topo sort only possible in DAG
 put element x in the stack after  completing all the dfs traversal from point x
 
 and now the stack will give our topological sort order.
+
+
+KAHN's Algorithm-
+BFS approch for Toposoert
+
+we have to create a inDegree array consist of inDegrees of each vertices ,
+and if inDegree of any vertice is zero , it means there is no vertices or 
+node before that node, ucan put this node in front of ans Array.
+
+while putting a element or node in ans array we check if that node points to any other node if yes then we will reduce the inDegree of that node by one and in this process if we get inDegree of
+ any other node equal to zero we put that into our queue and repeat the same process
