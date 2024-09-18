@@ -1,0 +1,6 @@
+=>
+
+Just Write the Topological Order Algorithm and find number of element 
+in the topological sort order , if it is equal to V vertices it means
+order ot toposort is valid hence a DAG graph means consist no cycles
+else it consist a cycles
