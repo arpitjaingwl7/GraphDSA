@@ -1,0 +1,30 @@
+
+BFS traversal gives shortest path in case of 
+unweighted undirected source to destination graph
+
+create a parrent array and
+complete the bfs traverse
+
+ and from destination track back to source by going to parent of
+ destination node  till gettin the source node.
+
+
+
+
+
+
+
+
+BFS Traversal Ensures Shortest Path:
+
+When traversing an unweighted undirected graph, BFS guarantees that the first time you reach a node, it will be via the shortest path from the source. This is why BFS is preferred over other algorithms (like DFS) for this type of graph.
+Create a Parent Array for Path Tracking:
+
+As you perform BFS, maintain a parent array (par[]), where par[i] stores the node from which we reached node i. This array will allow us to retrace the path from the destination back to the source.
+Mark Nodes as Visited:
+
+To prevent revisiting nodes, use a visited array (vis[]). This ensures that each node is explored exactly once, maintaining the efficiency of the BFS.
+Reconstruct the Path from Destination to Source:
+
+Once BFS is complete, you can retrieve the shortest path by starting from the destination node and moving backward using the parent array (par[]). Continue moving to the parent of each node until you reach the source node.
+Important: The path obtained this way will be in reverse order (from destination to source), so it needs to be reversed before returning it.
